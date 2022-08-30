@@ -1,0 +1,82 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="5.1" type="AppMgr">
+    <parm name="Action" value="Install" />
+    <parm name="APK" value="/sdcard/Download/AmsDevice.apk" />
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/device/settings/datawedge/autoimport/dwprofile_amsPin.db" />
+      <parm name="SourceAccessMethod" value="2" />
+      <parm name="SourcePathAndFileName" value="/sdcard/Download/dwprofile_amsPin.db" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/device/settings/datawedge/autoimport/dwprofile_AmsDevice.db" />
+      <parm name="SourceAccessMethod" value="2" />
+      <parm name="SourcePathAndFileName" value="/sdcard/Download/dwprofile_AmsDevice.db" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="6.0" type="DevAdmin">
+    <characteristic type="AppAsDevAdmin">
+      <parm name="DevAdminAction" value="1" />
+      <characteristic type="DevAdminDetails">
+        <parm name="DevAdminPkg" value="com.zebra.ams.device" />
+        <parm name="DevAdminClass" value="com.zebra.backsafe.android.splash.BacksafeAdmin" />
+      </characteristic>
+    </characteristic>
+  </characteristic>
+  <characteristic version="4.3" type="Intent">
+    <parm name="Action" value="StartActivity" />
+    <parm name="ActionName" value="android.intent.action.MAIN" />
+    <parm name="Package" value="com.zebra.ams.device" />
+    <parm name="Class" value="com.zebra.backsafe.android.splash.SplashActivity" />
+  </characteristic>
+  <characteristic version="4.2" type="XmlMgr">
+    <parm name="ProcessingMode" value="2" />
+  </characteristic>
+  <characteristic version="6.0" type="ConditionMgr">
+    <parm name="DataType" value="3" />
+    <characteristic type="StringDetails">
+      <parm name="StringSourceType" value="1" />
+      <parm name="StringSystemProperty" value="11" />
+      <parm name="StringConditionTest" value="9" />
+      <parm name="StringConstantValue" value="1" />
+    </characteristic>
+    <parm name="ConditionMetAction" value="0" />
+    <parm name="ConditionNotMetAction" value="1" />
+    <parm name="ConditionFailMessage" value="Not Android 10,  Skipping this section.." />
+    <parm name="SuppressMessage" value="1" />
+  </characteristic>
+  <characteristic version="0.5" type="Batch">
+    <parm name="BatchFileType" value="1" />
+    <parm name="BatchFileAccessMethod" value="2" />
+    <characteristic type="file-details">
+      <parm name="XmlFilePathAndName" value="/sdcard/Download/ZamsA10SerialPermission.xml" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="6.0" type="ConditionMgr">
+    <parm name="DataType" value="3" />
+    <characteristic type="StringDetails">
+      <parm name="StringSourceType" value="1" />
+      <parm name="StringSystemProperty" value="11" />
+      <parm name="StringConditionTest" value="10" />
+      <parm name="StringConstantValue" value="10" />
+    </characteristic>
+    <parm name="ConditionMetAction" value="0" />
+    <parm name="ConditionNotMetAction" value="1" />
+    <parm name="ConditionFailMessage" value="Not Android 11+, skipping" />
+    <parm name="SuppressMessage" value="1" />
+  </characteristic>
+  <characteristic version="0.5" type="Batch">
+    <parm name="BatchFileType" value="1" />
+    <parm name="BatchFileAccessMethod" value="2" />
+    <characteristic type="file-details">
+      <parm name="XmlFilePathAndName" value="/sdcard/Download/ZamsDeviceA11PlusStoragePermission.xml" />
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>

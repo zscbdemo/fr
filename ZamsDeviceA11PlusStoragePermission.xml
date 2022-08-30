@@ -1,0 +1,8 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="10.4" type="AccessMgr">
+    <parm name="PermissionAccessAction" value="1" />
+    <parm name="PermissionAccessPermissionName" value="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <parm name="PermissionAccessPackageName" value="com.zebra.ams.device" />
+    <parm name="PermissionAccessSignature" value="MIICxTCCAa2gAwIBAgIEc8F7qTANBgkqhkiG9w0BAQsFADATMREwDwYDVQQDEwhCYWNrc2FmZTAeFw0yMDA1MjEyMzAzMDNaFw00NTA1MTUyMzAzMDNaMBMxETAPBgNVBAMTCEJhY2tzYWZlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg6V2pGc4jKqZNfAIKvowp+cGkag1r6l6jJAlNqQu7QZU9yXyxvHgziME3310Tqf2ssyZ1+33U0k7aif/v44xaxuFuDNpvvyq/lHaENqb3N7EKO8tfUfciZ0ZPrZUyI98Ql8XBnmpWacAt94jjTvXhnaG6o9gBJm765SQvAYjThNqu0LP1mBYSEOGpykyelc88wFzM966b/b9PqtNCeyqWVPUsG1yDLmBcKvgtJJ+OEY6aiqG6hyyjLFk0F6ASiRSD7cwTLSEzjtHIb0drST9Al/j5qsVYuAPnZQ3WQa7UacitVu0fiwPC6rIy8T32vWL3BLOp92rfAwpB+ZGagV0BwIDAQABoyEwHzAdBgNVHQ4EFgQUtQODugItCiiENQPHA8Q6IsfUueMwDQYJKoZIhvcNAQELBQADggEBAGbolzKiz1oKRu0mSW+ZNFThtjQMlXDa4xWgNJdcX/eptZ56sKqHRZx9WgFGUZ/ophY+idUrrhmTTfOIWrwoXRmNJcEi6r7YMwN9sSnqMUMPh+NljF7VUuSggO42JBgwCXE5g13qcokgQ53X9ItsWfvY8WjORQOajtc5EqMS3egdzwlwQHQbCaDdshKfQae1FsDMbcKLt4VbHQEmX6a4zSMG6m6IPZNdO1v3eHNmTB6M/CMs46lbrv4TXTIIa9THiCtV7PEtNkNJNaL+O0G3xtGT6wOKsSaBIMOgYFBtTyW6bXdeKtzWsNfYbgUKyCRmB86ZlS7bdqB7lTgfSus6+RE=" />
+  </characteristic>
+</wap-provisioningdoc>
