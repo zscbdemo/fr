@@ -1,4 +1,5 @@
 ﻿<wap-provisioningdoc>
+    <characteristic version="5.0" type="FileMgr">
     <parm name="FileAction" value="1" />
     <characteristic type="file-details">
       <parm name="TargetAccessMethod" value="2" />
@@ -6,14 +7,16 @@
       <parm name="SourceAccessMethod" value="1" />
       <parm name="SourcePathAndFileName" value="https://raw.githubusercontent.com/zscbdemo/ic/master/ZamsA10SerialPermission.xml?noCache" />
     </characteristic>
-	<parm name="FileAction" value="1" />
+    <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
     <characteristic type="file-details">
       <parm name="TargetAccessMethod" value="2" />
       <parm name="TargetPathAndFileName" value="/sdcard/Download/ZamsDeviceA11PlusStoragePermission.xml" />
       <parm name="SourceAccessMethod" value="1" />
       <parm name="SourcePathAndFileName" value="https://raw.githubusercontent.com/zscbdemo/ic/master/ZamsDeviceA11PlusStoragePermission.xml?noCache" />
     </characteristic>
-	<parm name="FileAction" value="1" />
+    <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
     <characteristic type="file-details">
       <parm name="TargetAccessMethod" value="2" />
       <parm name="TargetPathAndFileName" value="/sdcard/Download/AmsDevice.apk" />
